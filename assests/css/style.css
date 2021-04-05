@@ -9,3 +9,10 @@
 .hero-img{
     padding: 110px 100px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .hero-sc{
+        height: 1000px;
+    }
+}
