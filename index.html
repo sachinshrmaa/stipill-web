@@ -8,14 +8,29 @@
 
     <title>Stipill</title>
 
-    <!-- bootstrap css -->
+
+    <!-- MailChimp CSS -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap css -->
     <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
 
-    <!-- bootstrap icons -->
+    <!-- Bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 
-    <!-- custom css -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./assests/css/style.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JD8RJTKQVD"></script>
+    <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+ 
+       gtag('config', 'G-JD8RJTKQVD');
+    </script>
+ 
 
 </head>
 <body>
@@ -43,15 +58,23 @@
         <div class="py-5 text-center" id="join-waitlist">
             <div class="mb-md-5 col-md-6 m-auto">
                 <h1>Join the waitlist</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error aspernatur minus officia ea, eius assumenda.</p>
+                <p>Join our stipill insider program to get notified about the lastest news, release of our Stipill app. </p>
             </div>
             
-            <form action="#">
-                <div class="mb-3 col-md-7 m-auto">
-                    <input type="text" placeholder="Enter you email" class="form-control py-3">
-                </div>
-                <div class="mb-2">
-                    <input type="submit" class="btn btn-primary px-5 py-3" value="Join">
+            <!-- Mailchimp Form -->
+            <form action="https://stipill.us1.list-manage.com/subscribe/post?u=64ed617f456fd004e882975c3&amp;id=14f3c37a52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="text-center" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                    <div class="mb-3 col-md-7 m-auto">
+                        <input type="email" value="" name="EMAIL" class="form-control py-3" id="mce-EMAIL" placeholder="Enter you email">
+                    </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>   
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_64ed617f456fd004e882975c3_14f3c37a52" tabindex="-1" value=""></div>
+                    <div class="col-md-7 m-auto">
+                        <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary px-5 py-3">
+                    </div>
                 </div>
             </form>
 
@@ -65,22 +88,23 @@
         
         <nav class="nav justify-content-center mb-3">
             <a class="nav-link" target="blank" href="https://twitter.com/Stipill1"><i class="bi bi-twitter"></i></a>
-            <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
-            <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+            <a class="nav-link" href="https://www.facebook.com/stipill"><i class="bi bi-facebook"></i></a>
         </nav>
 
         <nav class="nav justify-content-center mb-3">
-            <a class="nav-link" href="#">Privacy Policy</a>
-            <a class="nav-link" href="#">Terms</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="privacy.html">Privacy Policy</a>
+            <a class="nav-link" href="mailto:stipillin@gmail.com">Contact</a>
         </nav>
 
-        <small>&copy 2020-2021 Stipill</small>
+        <small>&copy 2020-2021 Stipill India</small>
 
     </footer>
     
 
-    <!-- bootstrap js -->
+    <!-- MailChimp JS -->
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
+    <!-- Bootstrap JS -->
     <script src="./assests/js/bootstrap.min.js"></script>
     
 </body>
