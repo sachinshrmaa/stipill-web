@@ -1,13 +1,50 @@
+:root{
+    --bg-color:rgb(255, 255, 255);
+    --link-color:rgb(75, 75, 168);
+    --btn-color:rgb(84, 84, 168);
+    --para-style:"Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --head-title-style:"Regular Patch", "Regular Bold", "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue";
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: var(--para-style);
+}
+
+h1,
+h2{
+    font-family: var(--head-title-style);
+}
+
 .hero-sc{
     height: 550px;
 }
 
 .hero-text{
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .hero-img{
-    padding: 110px 230px;
+    padding: 10px 230px;
+}
+
+.btn{
+    background-color: var(--btn-color);
+}
+
+a{
+    color: var(--link-color);
+}
+
+
+#logo{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--link-color);
+    display: inline-block;
+    padding-top: 10px !important;
 }
 
 
