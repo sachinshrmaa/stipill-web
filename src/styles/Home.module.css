@@ -1,0 +1,56 @@
+
+
+.heroHeading{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Lexend', sans-serif;
+    margin-top: 50px;
+}
+
+.heroPara{
+    font-size: 17px;
+}
+
+.heroImg{
+    height: 270px;
+    width: auto;
+    margin: 100px 0;
+}
+
+
+
+.workingSection{
+    height: 400px;
+}
+
+
+
+
+.stepCount{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    margin: 30px 5px;
+    font-size: 40px;
+    text-align: center;
+    color: #6d6d6d;
+}
+
+.stepDes{
+    float: right;
+    width: 70%;
+    padding:10px;
+    color: #625d5d;  
+    line-height: 25px;  
+    font-size: 14px;    
+}
+
+
+
+.footerCard{
+    padding: 100px 0;
+    height: 500px;
+    background-color: aliceblue;
+}

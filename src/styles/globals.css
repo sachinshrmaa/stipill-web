@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
+
+
+:root{
+  --bg-color:rgb(255, 255, 255);
+    --hd-color:rgb(84, 84, 168);
+    --link-color:rgb(75, 75, 168);
+    --btn-color:rgb(84, 84, 168);
+  --head-title-style: 'Lexend', sans-serif;
+
+}
+
+
+body{
+  margin: 0;
+  font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#logo{
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  color: #000;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-transform: uppercase;
+  color: #1f2d89;
+}
+
+
+.footer-section{
+  background-color:  #1f2d89;
+  height: 180px;
+  padding: 50px 0;
+  color: #fff;
+}
+
+
+.footer-brand{
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.bi-linkedin, .bi-github, .bi-twitter, .bi-facebook{
+  font-size: 22px;
+}
+
+
+
+.steps{
+  background-color: rgb(250, 250, 250);
+  height: 150px;
+  width: 20%;
+  border-radius: 5px;
+  border-left: 5px solid rgb(88, 93, 192);
+}
+
+
+.heading{
+  font-family:var(--head-title-style) ;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  color: rgb(20, 28, 58);
+}
+
+.nav-link{
+  color: var(--btn-color);
+}
+
+.button{
+  background-color: var(--btn-color);
+  color: #ffe;
+  font-weight: 600;
+  letter-spacing: .8px;
+  font-size: 15px;
+}
+
+.button:hover{
+  background-color:rgb(97, 97, 173) ;
+  color: #ffe;
+}
+
+.button-outline{
+  border: 2px solid var(--btn-color);
+  font-weight: 600;
+  letter-spacing: .8px;
+  font-size: 15px;
+}
+
+.button-outline:hover{
+  background-color:rgb(97, 97, 173) ;
+  color: #ffe;
+}
