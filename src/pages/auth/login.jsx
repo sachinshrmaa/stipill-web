@@ -1,9 +1,15 @@
+import Head from "next/head";
 import Link from "next/link";
 
 
 const Login = () => {
     return (  
         <div className="col-md-8 col-11 m-auto py-5 ">
+            <Head>
+                <title>Log In - Stipill</title>
+                <meta name="description" content="Welcome back to Stipill" />
+            </Head>
+            
             <h2 className="heading text-center mb-5">Welcome Back!</h2>
 
             <form action="#" className="form-groups mt-5">

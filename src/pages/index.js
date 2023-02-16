@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 
 export default function Home() {
@@ -8,19 +9,19 @@ export default function Home() {
     <>
       <Head>
         <title>Getting Started - Stipill</title>
-        <meta name="description" content="Stipill" />
+        <meta name="description" content="Fuel with passion with Stipill" />
       </Head>
       <main>
 
           <div className='col-md-10 m-auto col-11 py-5'>
-            <div className='row align-items-center'>
-              <div className='col-7'>
-                <h1 className={styles.heroHeading}>What would you do if money wasn't the factor?</h1>
+            <div className='row align-items-center '>
+              <div className='col-md-6'>
+                <h1 className={styles.heroHeading}>What would you do if money wasn&apos;t the factor?</h1>
                 <p className={styles.heroPara}>Stipill allows you the freedom to do what you truely love and enjoy and suports your work with rewards from your true supporter.</p>
                 <Link href='/auth/signup' className='btn button py-3 px-5 mt-4'>Get Started &rarr;</Link>
               </div>
-              <div className='col-5'>
-                <img src='/img/chatting.png' className={styles.heroImg} />
+              <div className='col-md-6 d-flex justify-content-end'>
+                <Image src='/img/chatting.png' height='340' width='470' className={styles.heroImg} alt="Fuel with passion with Stipill" />
               </div>
             </div>
           </div>

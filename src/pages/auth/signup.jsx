@@ -1,8 +1,15 @@
+import Head from "next/head";
 import Link from "next/link";
+
 
 const SignUp = () => {
     return (  
         <div className="col-md-8 col-11 m-auto py-5 ">
+            <Head>
+                <title>Sign Up - Stipill</title>
+                <meta name="description" content="Create a free Account" />
+            </Head>
+
             <h2 className="heading text-center mb-5">Create an Account</h2>
 
             <form action="#" className="form-groups mt-5">
