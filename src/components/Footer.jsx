@@ -7,7 +7,7 @@ const Footer = () => {
 
             <div className="row col-md-10 m-auto align-items-center ">
 
-                <div className="col-md-4 col-12 mb-4 d-flex  justify-content-md-start ">
+                <div className="col-md-4 col-12 mb-4 d-flex justify-content-center justify-content-md-start ">
                     <div>
                         <Link href="/" className="text-decoration-none">
                             <h5 className={styles.footerBrand}>stipill</h5>

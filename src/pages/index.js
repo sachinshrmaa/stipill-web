@@ -32,9 +32,9 @@ export default function Home() {
               <div class={styles.workingSection}>
                 <h1 class="h1 heading text-center mt-5 mb-5">How Does Stipill Works?</h1>
 
-                <div class="row m-auto mt-5 d-flex justify-content-around">
-                  
-                  <div class="col-lg-2 col-10 steps mb-3 ">
+                <div class="row m-auto d-flex justify-content-around">
+
+                  <div class="col-lg-2 col-10 steps mb-3">
                     <h3 class={styles.stepCount}>1</h3>
                     <p class={styles.stepDes}>Create your Stipill account- <Link href="/auth/signup">Get Started</Link></p>
                   </div>

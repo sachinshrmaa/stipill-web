@@ -47,6 +47,15 @@ body{
 }
 
 
+
+@media screen and (max-width: 600px) {
+  .steps{
+    width: auto;
+  }
+
+
+}
+
 .heading{
   font-family:var(--head-title-style) ;
   font-size: 40px;
@@ -82,4 +91,13 @@ body{
 .button-outline:hover{
   background-color:rgb(97, 97, 173) ;
   color: #ffe;
+}
+
+
+@media screen and (max-width: 600px) {
+  .steps{
+    width: 100%;
+  }
+
+
 }
