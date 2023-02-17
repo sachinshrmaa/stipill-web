@@ -1,0 +1,15 @@
+
+
+.profileSection{
+    min-height: 500px;
+}
+
+
+.profileImage{
+    object-fit: fill;
+    height: 200px;
+    width: 200px;
+    border: 3px solid rgb(87, 87, 149);
+    object-position: 50% 50%;
+    border-radius: 50%;
+}
