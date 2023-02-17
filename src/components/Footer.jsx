@@ -1,15 +1,16 @@
 import Link from "next/link";
+import styles from "src/styles/Footer.module.css"
 
 const Footer = () => {
     return (  
-        <div className='footer-section'>
+        <div className={styles.footerSec}>
 
             <div className="row col-md-10 m-auto align-items-center ">
 
-                <div className="col-md-4 col-12 mb-4 d-flex justify-content-center justify-content-md-start">
+                <div className="col-md-4 col-12 mb-4 d-flex  justify-content-md-start ">
                     <div>
                         <Link href="/" className="text-decoration-none">
-                            <h5 className='footer-brand'>stipill</h5>
+                            <h5 className={styles.footerBrand}>stipill</h5>
                         </Link>
                         <small>Made with ❤ in India</small> <br />
                         <small>©2023 Stipill ・ All rights reserved.</small>

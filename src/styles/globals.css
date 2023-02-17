@@ -28,22 +28,9 @@ body{
 }
 
 
-.footer-section{
-  background-color:  #1f2d89;
-  height: 180px;
-  padding: 50px 0;
-  color: #fff;
-}
 
 
-.footer-brand{
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #fff;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-}
+
 
 .bi-linkedin, .bi-github, .bi-twitter, .bi-facebook{
   font-size: 22px;
